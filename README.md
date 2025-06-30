@@ -1,5 +1,7 @@
 # RTMP_server_Oracle_Ubuntu
 
+youtube => https://www.youtube.com/watch?v=ThdWMxS_VCk
+
 Step 1
 
 `ssh -i -<SSH_KEY_NAME>  ubuntu@<YOUR_PUBLIC_IP>`
