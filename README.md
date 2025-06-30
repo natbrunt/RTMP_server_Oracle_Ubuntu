@@ -90,6 +90,6 @@ edit the file to include port 1935
 `sudo iptables-restore < /etc/iptables/rules.v4`
 Step 9 (debugging)
 locate the attached nginx conf, test if it is valid
-`sudo nginx -t`
+```sudo nginx -t```
 live view of nginx error log
-`sudo tail -f /etc/nginx/logs/error.log`
+```sudo tail -f /etc/nginx/logs/error.log```
