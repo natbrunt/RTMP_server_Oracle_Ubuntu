@@ -2,6 +2,7 @@
 
 Step 1
 `ssh -i -<SSH_KEY_NAME>  ubuntu@<YOUR_PUBLIC_IP>`
+
 Step 2
 ```
 sudo apt update
@@ -28,7 +29,9 @@ sudo make install
 ```
 Step 5
 `sudo nano /lib/systemd/system/nginx.service`
+
 paste this in the file
+
 ```
 [Unit]
 Description=A high performance web server and a reverse proxy server
@@ -47,7 +50,9 @@ sudo systemctl daemon-reload
 ```
 Step 6
 `sudo nano /etc/nginx/nginx.conf `
+
 paste this in the file
+
 ```
 worker_processes  auto;
 events {
