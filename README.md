@@ -1,6 +1,7 @@
 # RTMP_server_Oracle_Ubuntu
 
 Step 1
+
 `ssh -i -<SSH_KEY_NAME>  ubuntu@<YOUR_PUBLIC_IP>`
 
 Step 2
