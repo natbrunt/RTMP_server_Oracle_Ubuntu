@@ -49,6 +49,7 @@ sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 ```
 Step 6
+
 `sudo nano /etc/nginx/nginx.conf `
 
 paste this in the file
