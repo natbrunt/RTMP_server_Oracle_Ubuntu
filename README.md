@@ -29,6 +29,7 @@ sudo make
 sudo make install
 ```
 Step 5
+
 `sudo nano /lib/systemd/system/nginx.service`
 
 paste this in the file
